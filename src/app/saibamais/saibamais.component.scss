@@ -1,0 +1,49 @@
+.titulocurso{
+    color:#F3D653;
+    align-self: center;
+    text-align: center;
+  }
+  .main_saiba_mais{
+    display: inline-flex;
+    padding: 30px;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+  }
+  .preco_parcela{
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .botao_comprar{
+    height: 50px;
+      width: 120px;
+      margin-top: 10px;
+      align-self: flex-end;
+      background-color: #7ED957;
+      font-weight: 500;
+      font-size: 25px;
+      color: #182a3a;
+      border: 0;
+      border-radius: 10px;
+  }
+  .botao_comprar:hover{
+    background-color: #F3D653
+  }
+  
+  
+  .image{
+  display: inline-block;
+  }
+  .container{
+    display:flex;
+    align-self:center;
+    background-color: #FFFFFF;
+    width: auto;
+    height: auto;
+  }
+  .containerdebaixo{
+    display: flex;
+    background-color: aqua;
+  }

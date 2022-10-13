@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500;700&display=swap');
+
+/*container flex*/
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*configurando margem e espaçamento interno da sessão*/
+.quem-somos{
+  margin: 25px;
+  padding: 15px;
+}
+
+/*título da seção quem somos*/
+.title1 h1 {
+  font-family: 'League Spartan', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 30px;
+  color: #f3d653;
+}
+
+/*alinhamento e margins do texto quem somos*/
+.text1{
+  text-align: center;
+  margin: 30px 150px;
+}
+
+/*estiliza os paragrafos da seção*/
+.text1 p{
+  color: #f2fcff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/*estiliza o título da seção*/
+.team h1{
+  font-family: 'League Spartan', sans-serif;
+  color:#f3d653;
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+/*flex container da seção quem somos*/
+.containerteam{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 25px 50px;
+}
+
+/*estiliza as fotos da seção quem somos*/
+.photo {
+  margin: 5px 30px;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+/*comportamento padrão do conteúdo*/
+.content{
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 200;
+  color: #f2fcff;
+}
+
+/*configuração padrão dos icones svg*/
+.svg-icons {
+  margin-left: 30%;
+}
+
+/*estiliza o icone do linkedin*/
+.linkedin {
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+/*estiliza o icone do cv lattes*/
+.lattes {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+footer {
+  position: static !important; /*sobscreve a configuração do doc style.css*/
+}

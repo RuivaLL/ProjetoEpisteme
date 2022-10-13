@@ -1,0 +1,9 @@
+{
+    "/signup/*":{
+        "target": "http://localhost:8080/signup",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    }
+
+}

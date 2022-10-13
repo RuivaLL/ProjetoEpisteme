@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500;700&display=swap');
+
+/*estilizando o título da página*/
+h1 {
+  color: #f3d653;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+footer {
+  position: static !important; /*sobscreve o comportamento aplicado no arquivo style.css*/
+}
+
+/*estilizando container grid*/
+.container{
+  display: grid;
+  grid-template-columns: 30% 30%  30%;
+  grid-template-rows: 350px 350px;
+  margin-top: 50px;
+  margin-left: 50px;
+  column-gap: 30px;
+  row-gap: 60px;
+}
+
+/*comportamento padrão do container*/
+.item{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2fcff;
+  color: black;
+  border: 1px solid black;
+  text-align: justify; 
+}
+
+/*estiliza a imagem dos containers*/
+.item img{
+  width: 100%;
+  max-height: 50%;
+}
+
+/*Estiliza o título do curso*/
+.item h2 {
+  padding: 10px;
+}
+
+/*Estiliza a descrição do curso*/
+.item p{
+  padding: 5px;
+}
+
+/*faz o link ficar alinhado à direita*/
+.link {
+  text-align: right;
+  margin: 10px;
+}
+
+/*Estilo da tag a*/
+.link a {
+  text-decoration: none;
+  color: #7ed957;
+}

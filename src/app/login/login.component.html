@@ -1,0 +1,17 @@
+<body>
+    <main class="login">
+        <img src="/assets/imagens/Logo.png" alt="logo" draggable="false">
+        <form action="">
+            <label class="active" for="usuario">E-mail:</label>
+            <input [(ngModel)]="usuario.email" name="usuario" id="usuario" type="text" class="validate">
+
+            <label class="active" for="senha">Senha:</label>
+            <input [(ngModel)]="usuario.senha" name="senha" type="password" id="senha" class="validate">
+            <br>
+            <p>Ainda não se cadastrou? <a routerLink="signup">Sign up aqui!</a></p>
+            <p>Esqueceu a senha? <a routerLink="resetsenha" target="_blank">Clique aqui</a></p>
+            <button type="submit" name="action" (click)="fazerlogin()">Entrar</button>
+        </form>
+        
+    </main>
+</body>
